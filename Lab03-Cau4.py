@@ -1,0 +1,5 @@
+f = open('E:/HUY/PythonNC/Pythonnangcao/Lab03/Chuong10/python.txt', 'r')
+f.seek(13,0)
+line = f.readline()
+print(line)
+f.close()
